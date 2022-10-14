@@ -1,0 +1,121 @@
+
+.panier{
+    width: 30px;
+    height: 30px;
+    margin-left: 53rem;
+   color: aliceblue;
+   cursor: pointer;
+   
+}
+
+.pan{
+margin-top: 10px;
+display: flex;
+}
+#paniertxt{
+    margin-top: 10px;
+    margin-right: 2rem;
+    
+}
+#paniertxt:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.navbar-expand-lg {
+    margin-top:1rem;
+    background-color:#fd79a8 ;
+}
+
+.icons{
+width: 80px;
+height: 80px;
+cursor: pointer;
+}
+
+.log{
+    font-size: 30px;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-decoration:underline ;
+    text-decoration: none;
+    color: black;    
+}
+.log:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% ;
+    
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+}
+
+.fa-heart{
+   padding: 0.3rem;
+    cursor: pointer;
+   font-size: 20px;
+}
+
+
+
+ .footer{
+    background-color: #a29bfe;
+    color: #ffffff;
+    text-align: center;
+    
+ }
+ #btn{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    background-color: black;
+    color: #ffffff;
+
+ }
+
+ .rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    padding: 1rem;
+}
+.stars {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.stars:hover .fa-star {
+    color: #ffdc0f;
+}
+.stars .fa-star:hover ~ .fa-star {
+    color: gray;
+}
+html { margin-top: 2em; text-align: center; font-family: 'Droid Sans', sans-serif; font-size: 15px; }
+a { color: crimson; font-weight: 600; transition: all 0.8s cubic-bezier(.14,1.36,.5,.88); display: inline-block; }
+a:hover { transform: scale(1.1) }
+
+#soc{
+   font-weight: 50px;
+   height: 45px;
+   cursor: pointer;
+  
+
+} .sociale{
+    
+    display:flex ; 
+    justify-content: space-around ;
+    padding: 1%;
+    
+}
